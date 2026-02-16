@@ -8,12 +8,19 @@
     body {
         @apply antialiased text-brand-gray bg-gray-50 font-sans;
     }
-    
-    h1, h2, h3, h4, h5, h6 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         @apply font-serif font-bold text-brand-blue;
     }
 }
 
-.transition-premium {
-    @apply transition-all duration-300 ease-in-out;
+@layer utilities {
+    .transition-premium {
+        @apply transition-all duration-300 ease-in-out;
+    }
 }

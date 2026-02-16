@@ -93,7 +93,7 @@ import {
   UserPlusIcon, 
   UsersIcon, 
   ShieldCheckIcon, 
-  HeadsetIcon,
+  LifebuoyIcon,
   PencilSquareIcon,
   TrashIcon
 } from '@heroicons/vue/24/outline'
@@ -105,7 +105,7 @@ definePageMeta({
 const userStats = [
   { label: 'Total Infrastructure Staff', value: '42', icon: UsersIcon },
   { label: 'Verified Global Admins', value: '5', icon: ShieldCheckIcon },
-  { label: 'Active Support Tier 1/2', value: '28', icon: HeadsetIcon },
+  { label: 'Active Support Tier 1/2', value: '28', icon: LifebuoyIcon },
 ]
 
 const users = [
